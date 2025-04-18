@@ -1,0 +1,120 @@
+
+    html{
+        background-color: rgb(226, 225, 227);
+    }
+    body{
+        margin: 0;
+}
+
+    a{
+        text-decoration: none;
+            color: rgb(0, 0, 0);
+}
+
+    .fixed-bar{
+        height: 70px;        
+    }
+
+    .page-title{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 40px;
+        background-color: cornflowerblue;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+}
+
+/*main*/
+    .trip-text{
+        background-color: cornflowerblue;
+        padding: 10px;
+        display: flex;
+    }
+
+    .trip-text p {
+        color:whitesmoke;
+        margin: 0;   
+        text-align: center;     
+        width: 50%;        
+    }
+
+    .tagline {
+        background-color: cornflowerblue;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 25px;
+        margin: 0;
+        height: 30px;
+    }
+
+.navigation {
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+.navigation li, .navigation a{
+    display: inline-block;
+    width: 70px;
+    background-color: cornflowerblue;
+}
+
+/*footer*/
+.sosmed{
+display: flex;
+align-items: center;
+border: 2px solid cornflowerblue;
+background-color: whitesmoke;
+margin: 5px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.sosmed img{
+    width: 50px;
+    margin: 10px;
+}
+
+.sosmed p{
+    width: 150px;
+    text-align: center;
+}
+
+.trip-img{
+display: flex;
+}
+
+.trip-img img {
+    width: 50%;
+    height: 100%;
+
+}
+/**/
+.testo
+{   
+background-color: whitesmoke;
+margin: 50px;
+border: solid cornflowerblue;
+}
+
+.judul
+{
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"],
+input[type="number"],
+input[type="value"],
+input[type="tel"],
+select {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
